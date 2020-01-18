@@ -1,0 +1,61 @@
+﻿@model IEnumerable<InvoiceSystem.COMMON.DTOs.DetailLineDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lijst van alle detaillijnen</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Unieke code
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Item)
+        </th>
+        <th>
+            Prijs
+        </th>
+        <th>
+            Korting
+        </th>
+        <th>
+            Hoeveelheid
+        </th>
+        <th>
+            BTW
+        </th>
+        <th>
+            Totaal
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.InvoiceDTO.UniqueCode)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Item)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.UnitPrice)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Discount)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Amount)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Vat)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.TotalPriceWithDiscountAndVat)
+    </td>
+</tr>
+}
+
+</table>

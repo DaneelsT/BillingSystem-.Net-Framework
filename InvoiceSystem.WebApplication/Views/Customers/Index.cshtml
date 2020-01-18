@@ -1,0 +1,85 @@
+﻿@model IEnumerable<InvoiceSystem.COMMON.DTOs.CustomerDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Overzicht van klanten</h2>
+
+<p>
+    @Html.ActionLink("Maak een nieuwe klant aan", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Plaats
+        </th>
+        <th>
+            Postcode
+        </th>
+        <th>
+            Bedrijfsnaam
+        </th>
+        <th>
+            telefoonnummer
+        </th>
+        <th>
+            BTW-Nummer
+        </th>
+        <th>
+            Straat
+        </th>
+        <th>
+            Huisnummer
+        </th>
+        <th>
+            Bus
+        </th>
+        <th>
+            E-mail
+        </th>
+        <th>
+            Verwijderd?
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.CityDTO.CityName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CityDTO.ZipCode)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CompanyName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PhoneNumber)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.VatNumber)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Street)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.HouseNumber)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Bus)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Email)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.IsDeleted)
+    </td>
+    <td>
+        @Html.ActionLink("Wijzig", "Edit", new { id = item.CustomerId })
+    </td>
+</tr>
+}
+
+</table>

@@ -1,0 +1,44 @@
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\InvoiceSystem.DAL.dll.config
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\InvoiceSystem.DAL.dll
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\InvoiceSystem.DAL.pdb
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\EntityFramework.dll
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\EntityFramework.xml
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.csproj.CopyComplete
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.dll
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.pdb
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.Init.resources
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.csproj.GenerateResource.cache
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.Identity.resources
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.User.resources
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.User1.resources
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.User2.resources
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.csprojAssemblyReference.cache
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.fullName.resources
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\InvoiceSystem.DAL.dll.config
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\InvoiceSystem.DAL.dll
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\InvoiceSystem.DAL.pdb
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\EntityFramework.dll
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\EntityFramework.xml
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.csprojAssemblyReference.cache
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.Init.resources
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.Identity.resources
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.User.resources
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.User1.resources
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.User2.resources
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.Migrations.fullName.resources
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.csproj.GenerateResource.cache
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.csproj.CopyComplete
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.dll
+D:\School 2019-2020\Programmeren in .Net\Hulp\InvoiceSystemDaneelsTuur\InvoiceSystemDaneelsTuur\InvoiceSystem.DAL\obj\Debug\InvoiceSystem.DAL.pdb

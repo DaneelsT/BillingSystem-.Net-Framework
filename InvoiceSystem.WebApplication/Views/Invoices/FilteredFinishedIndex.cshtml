@@ -1,0 +1,69 @@
+﻿@model IEnumerable<InvoiceSystem.COMMON.DTOs.InvoiceDTO>
+
+@{
+    ViewBag.Title = "FilteredFinishedIndex";
+}
+
+<h2>Overzicht van alle afgewerkte facturen</h2>
+
+
+<p>
+    @Html.ActionLink("Lijst van alle actieve facturen", "Index")
+</p>
+<p>
+    @Html.ActionLink("Lijst van alle verwijderde facturen", "FilteredDeletedIndex")
+</p>
+<p>
+    @Html.ActionLink("Lijst van alle facturen", "FilteredIndex")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Bedrijfsnaam
+        </th>
+        <th>
+            Datum
+        </th>
+        <th>
+            Unieke factuur code
+        </th>
+        <th>
+            Afgewerkt
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerDTO.CompanyName)
+            </td>
+            <td>
+                @{
+                    string shortDate = item.Date.ToShortDateString();
+                }
+                @Html.DisplayFor(modelItem => shortDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UniqueCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsFinished)
+            </td>
+            <td>
+                @if (item.IsFinished == false)
+                {
+                    @Html.ActionLink("Wijzig", "Edit", new { id = item.InvoiceId })
+                }
+                @Html.ActionLink("Details", "Details", new { id = item.InvoiceId }) |
+                @Html.ActionLink("Verwijder factuur", "Delete", new { id = item.InvoiceId }) |
+                @Html.ActionLink("Maak PDF", "CreatePdf", new { id = item.InvoiceId })
+            </td>
+        </tr>
+    }
+
+</table>
+<p>
+    @Html.ActionLink("Maak een nieuw factuur aan", "Create")
+</p>

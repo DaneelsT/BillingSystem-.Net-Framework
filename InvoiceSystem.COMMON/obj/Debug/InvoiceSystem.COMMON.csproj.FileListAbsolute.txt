@@ -1,0 +1,5 @@
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.COMMON\bin\Debug\InvoiceSystem.COMMON.dll
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.COMMON\bin\Debug\InvoiceSystem.COMMON.pdb
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.COMMON\obj\Debug\InvoiceSystem.COMMON.dll
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.COMMON\obj\Debug\InvoiceSystem.COMMON.pdb
+D:\School 2019-2020\Programmeren in .Net\Projectopdracht Daneels Tuur\InvoiceSystemDaneelsTuur\InvoiceSystem.COMMON\obj\Debug\InvoiceSystem.COMMON.csprojAssemblyReference.cache

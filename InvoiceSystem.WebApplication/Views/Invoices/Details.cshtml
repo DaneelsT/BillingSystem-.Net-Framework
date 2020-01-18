@@ -1,0 +1,129 @@
+﻿@model InvoiceSystem.COMMON.DTOs.InvoiceDTO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Details van de factuur</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Unieke code
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UniqueCode)
+        </dd>
+        <dt>
+            Bedrijfsnaam
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerDTO.CompanyName)
+        </dd>
+        <dt>
+            Bedrijfsmail
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerDTO.Email)
+        </dd>
+
+        <dt>
+            Datum
+        </dt>
+
+        <dd>
+            @{
+                string shortDate = Model.Date.ToShortDateString();
+            }
+            @Html.DisplayFor(model => shortDate)
+        </dd>
+    </dl>
+    <p>
+        @Html.ActionLink("Terug naar het overzicht", "Index")
+    </p>
+    <table class="padding-table-columns">
+        <tr>
+            <th>
+                Naam product 
+            </th>
+            <th>
+                Prijs per stuk 
+            </th>
+            <th>
+                Aantal 
+            </th>
+            <th>
+                korting 
+            </th>
+            <th>
+                Btw-Percentage 
+            </th>
+            <th>
+                Prijs met korting 
+            </th>
+            <th>
+                Totaalprijs voor deze regel
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model.DetailLineDTOs.ToList())
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Item)
+                </td>
+                <td>
+                    € @Html.DisplayFor(modelItem => item.UnitPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
+                <td>
+                    @{
+                        int discount = Decimal.ToInt32(item.Discount);
+                    }
+                    @Html.DisplayFor(modelItem => discount) %
+                </td>
+                <td>
+                    @{
+                        int vat = Decimal.ToInt32(item.Vat);
+                    }
+                    @Html.DisplayFor(modelItem => vat) %
+                </td>
+                <td>
+                    € @Html.DisplayFor(modelItem => item.TotalWithDiscount)
+                </td>
+                <td>
+                    € @Html.DisplayFor(modelItem => item.TotalPriceWithDiscountAndVat)
+                </td>
+                <td>
+                    @if (Model.IsFinished == false)
+                    {
+                        @Html.ActionLink("Verwijder deze lijn", "Delete", "DetailLines", new { id = item.DetailLineId }, null)
+                        @Html.ActionLink("Wijzig", "Edit", "DetailLines", new { id = item.DetailLineId }, null)
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+
+    <p style="padding: 20px 0 0 0">Totaalprijs voor dit factuur bedraagt € @ViewBag.TotalPrice</p>
+</div>
+<p>
+    @if (Model.IsFinished == false)
+    {
+        @Html.ActionLink("Detaillijn toevoegen", "Create", "DetailLines", new { id = Model.InvoiceId }, null)
+    }
+</p>
+<style>
+    .padding-table-columns th
+{
+    padding:0 15px 15px 0;
+}
+</style>
+

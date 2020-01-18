@@ -1,0 +1,28 @@
+﻿@model IEnumerable<InvoiceSystem.WebApplication.Models.ApplicationUser>
+
+@{
+    ViewBag.Title = "AssignRole";
+}
+
+<h2>AssignRole</h2>
+
+@using (Html.BeginForm("AssignRole", "Admin", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-6">
+            <label class="control-label">gebruikersnaam</label>
+            <input type="text" name="txtUserName" class="form-control" />
+
+        </div>
+        <div class="col-md-6">
+            <label class="control-label">Selecteer een rol</label>
+            @Html.DropDownList("RoleName", (IEnumerable<SelectListItem>)ViewBag.Roles, "Select ...")
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <button type="submit" value="submit" class="btn btn-primary">Save</button>
+        </div>
+    </div>
+}

@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Microsoft.AspNet.Identity.EntityFramework.IdentityUser>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Admin</h2>
+
+<ul>
+    <li>@Html.ActionLink("Maak nieuwe gebruiker aan", "CreateUser", "Admin")</li>
+    <li>@Html.ActionLink("Rol toekennen", "AssignRole", "Admin")</li>
+    <li>@Html.ActionLink("Rollen", "Index", "Roles")</li>
+</ul>
+
+
+

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<InvoiceSystem.COMMON.DTOs.CityDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Overzicht van alle plaatsen.</h2>
+
+<p>
+    @Html.ActionLink("Maak een nieuwe plaats aan", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Postcode
+        </th>
+        <th>
+            Naam
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ZipCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CityName)
+        </td>
+        <td>
+            @Html.ActionLink("Wijzig", "Edit", new { id=item.CityId })
+        </td>
+    </tr>
+}
+
+</table>

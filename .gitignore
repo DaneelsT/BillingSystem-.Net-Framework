@@ -1,0 +1,6 @@
+*.xml
+*.dll
+*.css
+*.svg
+*.js
+packages/**/*.*
